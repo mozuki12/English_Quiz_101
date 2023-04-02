@@ -10,7 +10,7 @@ export default function Materi({navigation}) {
       <Text style={styles.congrat}>Selamat Anda Lulus</Text>
 
       </View>
-    <TouchableOpacity style={styles.boks2} onPress={() => navigation.navigate('Play')}>
+    <TouchableOpacity style={styles.boks2} onPress={() => navigation.navigate('PlayScreen')}>
       <Text style={styles.teks2}> Back </Text>
       </TouchableOpacity>
     </View>

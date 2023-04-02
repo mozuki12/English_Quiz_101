@@ -22,19 +22,19 @@ export default function Play({ navigation }) {
       <Text style={styles.teks1}>Select Quiz</Text>
       <TouchableOpacity
         style={styles.boks1}
-        onPress={() => navigation.navigate("VerbPlay")}
+        onPress={() => navigation.navigate("VerbPlayScreen")}
       >
         <Text style={styles.teks2}>Verb</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.boks2}
-        onPress={() => navigation.navigate("NounPlay")}
+        onPress={() => navigation.navigate("NounPlayScreen")}
       >
         <Text style={styles.teks2}>Noun</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.boks3}
-        onPress={() => navigation.navigate("AdjecPlay")}
+        onPress={() => navigation.navigate("AdjecPlayScreen")}
       >
         <Text style={styles.teks2}>Adjective</Text>
       </TouchableOpacity>

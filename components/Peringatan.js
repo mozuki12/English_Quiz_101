@@ -8,10 +8,10 @@ export default function Materi({navigation}) {
     <View style={styles.boks1}>
       <Text style={styles.alert}>Uh - oh your answer is wrong</Text>
       </View>
-    <TouchableOpacity style={styles.boks2} onPress={() => navigation.navigate('Play')}>
+    <TouchableOpacity style={styles.boks2} onPress={() => navigation.navigate('PlayScreen')}>
       <Text style={styles.teks2}> Try again ? </Text>
       </TouchableOpacity>
-    <TouchableOpacity style={styles.boks3} onPress={() => navigation.navigate('Materi')}>
+    <TouchableOpacity style={styles.boks3} onPress={() => navigation.navigate('MateriScreen')}>
       <Text style={styles.teks2}> Learn again </Text>
       </TouchableOpacity>
     </View>

@@ -5,7 +5,7 @@ export default function Materi({navigation}) {
   return(
     <View style={styles.container}>
     <View style={{flexDirection:'row'}}>
-    <TouchableOpacity onPress={() => navigation.navigate('AdjecPlay')}>
+    <TouchableOpacity onPress={() => navigation.navigate('AdjecPlayScreen')}>
     <Image style={styles.back} source={require('../assets/back.png')}/>
     </TouchableOpacity>
     <View style={{ backgroundColor: '#A36F4A', width: 40, height: 40, borderRadius: 5, marginTop: 10, marginLeft: 220, }} > <Text style={styles.number}> 3 </Text>
@@ -14,10 +14,10 @@ export default function Materi({navigation}) {
     <View style={styles.boks1}>
       <Text style={styles.quest}>Manakah yang termasuk adjective ?</Text>
       </View>
-    <TouchableOpacity style={styles.boks2} onPress={() => navigation.navigate('Peringatan')}>
+    <TouchableOpacity style={styles.boks2} onPress={() => navigation.navigate('PeringatanScreen')}>
       <Text style={styles.teks2}> Have </Text>
       </TouchableOpacity>
-    <TouchableOpacity style={styles.boks3} onPress={() => navigation.navigate('QuestAdject4')}>
+    <TouchableOpacity style={styles.boks3} onPress={() => navigation.navigate('QuestAdject4Screen')}>
       <Text style={styles.teks2}> Angry </Text>
       </TouchableOpacity>
     </View>

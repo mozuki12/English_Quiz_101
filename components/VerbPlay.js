@@ -5,7 +5,7 @@ export default function VerbPlay({navigation}) {
   return(
     <View style={styles.container}>
     <View style={{flexDirection:'row'}}>
-    <TouchableOpacity onPress={() => navigation.navigate('Play')}>
+    <TouchableOpacity onPress={() => navigation.navigate('PlayScreen')}>
     <Image style={styles.back} source={require('../assets/back.png')}/>
     </TouchableOpacity>
     <Text style={styles.header}>Verbs</Text>
@@ -13,17 +13,17 @@ export default function VerbPlay({navigation}) {
     <TouchableOpacity style={{ backgroundColor: '#FDED99', width: 70, height: 40, borderRadius: 5, margin: 15, marginTop: 110, }}> <Text style={styles.test}>Test</Text>
       </TouchableOpacity>
     <View style={{flexDirection: 'row'}}>
-      <TouchableOpacity style={{ backgroundColor: '#A36F4A', width: 60, height: 60, borderRadius: 5, margin: 15, }} onPress={() => navigation.navigate('QuestVerb1')} > <Text style={styles.number}> 1 </Text>
+      <TouchableOpacity style={{ backgroundColor: '#A36F4A', width: 60, height: 60, borderRadius: 5, margin: 15, }} onPress={() => navigation.navigate('QuestVerb1Screen')} > <Text style={styles.number}> 1 </Text>
       </TouchableOpacity>
-      <TouchableOpacity style={{ backgroundColor: '#A36F4A', width: 60, height: 60, borderRadius: 5, margin: 15, }} onPress={() => navigation.navigate('QuestVerb2')}> <Text style={styles.number}> 2 </Text>
+      <TouchableOpacity style={{ backgroundColor: '#A36F4A', width: 60, height: 60, borderRadius: 5, margin: 15, }} onPress={() => navigation.navigate('QuestVerb2Screen')}> <Text style={styles.number}> 2 </Text>
       </TouchableOpacity>
-      <TouchableOpacity style={{ backgroundColor: '#A36F4A', width: 60, height: 60, borderRadius: 5, margin: 15, }} onPress={() => navigation.navigate('QuestVerb3')}> <Text style={styles.number}> 3 </Text>
+      <TouchableOpacity style={{ backgroundColor: '#A36F4A', width: 60, height: 60, borderRadius: 5, margin: 15, }} onPress={() => navigation.navigate('QuestVerb3Screen')}> <Text style={styles.number}> 3 </Text>
       </TouchableOpacity>
     </View>
     <View style={{flexDirection: 'row'}}>
-      <TouchableOpacity style={{ backgroundColor: '#A36F4A', width: 60, height: 60, borderRadius: 5, margin: 15, }} onPress={() => navigation.navigate('QuestVerb4')}> <Text style={styles.number}> 4 </Text>
+      <TouchableOpacity style={{ backgroundColor: '#A36F4A', width: 60, height: 60, borderRadius: 5, margin: 15, }} onPress={() => navigation.navigate('QuestVerb4Screen')}> <Text style={styles.number}> 4 </Text>
       </TouchableOpacity>
-      <TouchableOpacity style={{ backgroundColor: '#A36F4A', width: 60, height: 60, borderRadius: 5, margin: 15, }} onPress={() => navigation.navigate('QuestVerb5')}> <Text style={styles.number}> 5 </Text>
+      <TouchableOpacity style={{ backgroundColor: '#A36F4A', width: 60, height: 60, borderRadius: 5, margin: 15, }} onPress={() => navigation.navigate('QuestVerb5Screen')}> <Text style={styles.number}> 5 </Text>
       </TouchableOpacity>
     </View>
     </View>

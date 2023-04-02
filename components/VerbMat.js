@@ -5,7 +5,7 @@ export default function VerbMat({navigation}) {
   return(
     <View style={styles.container}>
     <View style={{flexDirection:'row'}}>
-    <TouchableOpacity onPress={() => navigation.navigate('Materi')}>
+    <TouchableOpacity onPress={() => navigation.navigate('MateriScreen')}>
     <Image style={styles.back} source={require('../assets/back.png')}/>
     </TouchableOpacity>
     <Text style={styles.header}>Verbs</Text>

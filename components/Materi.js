@@ -6,7 +6,7 @@ export default function Materi({navigation}) {
   return(
     <View style={styles.container}>
     <View style={{flexDirection:'row'}}>
-    <TouchableOpacity onPress={() => navigation.navigate('Home')}>
+    <TouchableOpacity onPress={() => navigation.navigate('HomeScreen')}>
     <Image style={styles.back} source={require('../assets/back.png')}/>
     </TouchableOpacity>
     <Text style={styles.header}>English Quiz 101</Text>

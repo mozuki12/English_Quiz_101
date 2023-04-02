@@ -99,11 +99,6 @@ export default function App() {
           options={{ headerShown: false }}
         />
         <Stack.Screen
-          name="AdjecMatScreen"
-          component={AdjecMatScreen}
-          options={{ headerShown: false }}
-        />
-        <Stack.Screen
           name="PengumumanScreen"
           component={PengumumanScreen}
           options={{ headerShown: false }}

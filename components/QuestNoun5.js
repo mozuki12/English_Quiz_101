@@ -5,7 +5,7 @@ export default function Materi({navigation}) {
   return(
     <View style={styles.container}>
     <View style={{flexDirection:'row'}}>
-    <TouchableOpacity onPress={() => navigation.navigate('NounPlay')}>
+    <TouchableOpacity onPress={() => navigation.navigate('NounPlayScreen')}>
     <Image style={styles.back} source={require('../assets/back.png')}/>
     </TouchableOpacity>
     <View style={{ backgroundColor: '#A36F4A', width: 40, height: 40, borderRadius: 5, marginTop: 10, marginLeft: 220, }} > <Text style={styles.number}> 5 </Text>
@@ -14,16 +14,16 @@ export default function Materi({navigation}) {
     <View style={styles.boks1}>
       <Text style={styles.quest}>There are many beautiful ... in her garden.</Text>
       </View>
-    <TouchableOpacity style={styles.boks2} onPress={() => navigation.navigate('Pengumuman')}>
+    <TouchableOpacity style={styles.boks2} onPress={() => navigation.navigate('PengumumanScreen')}>
       <Text style={styles.teks2}> Flowers </Text>
       </TouchableOpacity>
-    <TouchableOpacity style={styles.boks3} onPress={() => navigation.navigate('Peringatan')}>
+    <TouchableOpacity style={styles.boks3} onPress={() => navigation.navigate('PeringatanScreen')}>
       <Text style={styles.teks2}> Fruits </Text>
       </TouchableOpacity>
-    <TouchableOpacity style={styles.boks3} onPress={() => navigation.navigate('Peringatan')}>
+    <TouchableOpacity style={styles.boks3} onPress={() => navigation.navigate('PeringatanScreen')}>
       <Text style={styles.teks2}> Pots </Text>
       </TouchableOpacity>
-    <TouchableOpacity style={styles.boks3} onPress={() => navigation.navigate('Peringatan')}>
+    <TouchableOpacity style={styles.boks3} onPress={() => navigation.navigate('PeringatanScreen')}>
       <Text style={styles.teks2}> Soil </Text>
       </TouchableOpacity>
     </View>

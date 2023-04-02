@@ -6,7 +6,7 @@ export default function VerbPlay({navigation}) {
   return(
     <View style={styles.container}>
     <View style={{flexDirection:'row'}}>
-    <TouchableOpacity onPress={() => navigation.navigate('Play')}>
+    <TouchableOpacity onPress={() => navigation.navigate('PlayScreen')}>
     <Image style={styles.back} source={require('../assets/back.png')}/>
     </TouchableOpacity>
     <Text style={styles.header}>Adjective</Text>

@@ -14,16 +14,16 @@ export default function Materi({navigation}) {
     <View style={styles.boks1}>
       <Text style={styles.quest}>I want to buy a book in a ...</Text>
       </View>
-    <TouchableOpacity style={styles.boks2} onPress={() => navigation.navigate('Peringatan')}>
+    <TouchableOpacity style={styles.boks2} onPress={() => navigation.navigate('PeringatanScreen')}>
       <Text style={styles.teks2}> Supermarket </Text>
       </TouchableOpacity>
-    <TouchableOpacity style={styles.boks3} onPress={() => navigation.navigate('Peringatan')}>
+    <TouchableOpacity style={styles.boks3} onPress={() => navigation.navigate('PeringatanScreen')}>
       <Text style={styles.teks2}> Fruitstall </Text>
       </TouchableOpacity>
-    <TouchableOpacity style={styles.boks3} onPress={() => navigation.navigate('QuestNoun5')}>
+    <TouchableOpacity style={styles.boks3} onPress={() => navigation.navigate('QuestNoun5Screen')}>
       <Text style={styles.teks2}> Bookstore </Text>
       </TouchableOpacity>
-    <TouchableOpacity style={styles.boks3} onPress={() => navigation.navigate('Peringatan')}>
+    <TouchableOpacity style={styles.boks3} onPress={() => navigation.navigate('PeringatanScreen')}>
       <Text style={styles.teks2}> Music studio </Text>
       </TouchableOpacity>
     </View>

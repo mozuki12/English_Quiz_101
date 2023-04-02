@@ -7,27 +7,22 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "expo": "~46.0.19",
+    "expo-status-bar": "~1.4.0",
+    "react": "18.0.0",
+    "react-native": "0.69.6",
+    "expo-constants": "~13.2.4",
     "@expo/vector-icons": "^13.0.0",
-    "@react-navigation/stack": "^6.3.16",
-    "expo": "~47.0.12",
-    "expo-constants": "~14.0.2",
-    "expo-status-bar": "~1.4.2",
-    "react": "18.1.0",
-    "react-native": "0.70.5",
-    "react-native-gesture-handler": "~2.1.0",
     "react-native-modal": "*",
     "react-native-paper": "4.9.2",
-    "react-native-safe-area-context": "4.4.1",
-    "react-native-screens": "~3.18.0"
+    "react-native-screens": "~3.15.0",
+    "@react-navigation/stack": "^6.3.16",
+    "react-native-gesture-handler": "~2.5.0",
+    "react-native-safe-area-context": "4.3.1",
+    "@react-navigation/native": "6.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
   },
-  "private": true,
-  "name": "english_quiz_101",
-  "description": "Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!",
-  "version": "1.0.0",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "private": true
 }

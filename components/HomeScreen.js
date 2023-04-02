@@ -15,7 +15,7 @@ export default function Home({ navigation }) {
     <View style={styles.container}>
       <TouchableOpacity
         style={styles.about}
-        onPress={() => navigation.navigate("About")}
+        onPress={() => navigation.navigate("AboutScreen")}
       >
         <Image
           style={styles.logoAbout}
@@ -36,7 +36,7 @@ export default function Home({ navigation }) {
         </Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.boks2}>
-        <Text style={styles.teks} onPress={() => navigation.navigate("Materi")}>
+        <Text style={styles.teks} onPress={() => navigation.navigate("MateriScreen")}>
           {" "}
           M A T E R I A L{" "}
         </Text>
