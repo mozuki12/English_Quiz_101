@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "My App",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "sdkVersion": "44.0.0",
+    "splash": {
+      "image": "./assets/englishquiz101.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    }
+  }
+}
